@@ -1,0 +1,13 @@
+	* Variables:
+        Son utilizadas para guardar en una palabra elegida un valor que utilizaremos más adelante. 
+        Sería como nombrar algo de tal manera que luego nos sea más sencillo referirnos a esto que nombramos
+	* Strings
+        Las strings son un tipo de variables las cuales se escriben siempre entre comillas y son una seguidilla de caracteres
+    * Funciones (argumentos, `return`)
+        Una función es algo que nos permitirá definir una acción y que podremos nombrarla para luego invocarla más adelante
+        Podremos además construirla en base a argumentos los cuales definiremos al momento de invocar la función
+        La función nos retornará algo una vez realizada y finalizará su acción.  
+	* Declaraciones `if`
+        Las declaraciones if nos permiten establecer distintos cursos posibles de la función, determinando qué nos devolverá la misma en cada caso
+    * Valores booleanos (`true`, `false`)
+        Estos valores tienen como posibilidad solo true (verdadero) o false (falso)
