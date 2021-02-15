@@ -1,0 +1,9 @@
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+Objetos: un objeto es una colección de propiedades asociadas a él. Estas propiedades pueden ser strings, numeros, funciones, arrays, etc
+    Luego de definirlo podemos invocar tanto el objeto en su totalidad como algunas de sus propiedades
+Propiedades: una propiedad es una asociación entre un nombre y un valor. Se define dentro de un objeto y ese valor puede ser string, numero, funciones, array, etc 
+Métodos: los métodos son funciones guardadas en una propiedad de un objeto. 
+Bucle for…in: este bucle nos permite utilizarlo en los objetos y nos entregará cada clave con su valor hasta el final del objeto
+Notación de puntos vs notación de corchetes: la notación de puntos (objeto.propiedad) se caracteriza por ser más cómoda por su mayor simplicidad pero se debe usar si o si el nombre literal de la propiedad
+    La notación de corchetes (objeto[propiedad]) requiere más caracteres ya que implica agregar el corchete pero nos permite usar variables que hagan referencia a la propiedad. 
