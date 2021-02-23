@@ -30,7 +30,6 @@ function incrementarPorUno(array) {
   for(var i = 0; i < array.length; i++) {
     nuevoArray[i] = array[i] + 1;
   }
-
   return nuevoArray;
 }
 
@@ -70,9 +69,9 @@ function arrayContiene(array, elemento) {
   for(var i = 0; i < array.length; i++){
     if(array[i] === elemento) {
       return true;
-      } 
-  } return false
-  
+    } 
+  }
+  return false;
 }
 
 
@@ -95,7 +94,8 @@ function promedioResultadosTest(resultadosTest) {
   var suma = 0;
   for(var i = 0; i < resultadosTest.length; i++){
     suma = suma + resultadosTest[i];
-  } return (suma / resultadosTest.length);
+  }
+  return (suma / resultadosTest.length);
 }
 
 
@@ -111,12 +111,14 @@ function multiplicarArgumentos() {
   // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
   // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
   // Escribe tu código aquí:
-  if(arguments.length === 0)
+  if(arguments.length === 0) {
     return 0;
+  }
   var multiplicacion = 1;
   for(var i = 0; i < arguments.length; i++) {
-       multiplicacion = multiplicacion * arguments[i];
-    } return multiplicacion;
+    multiplicacion = multiplicacion * arguments[i];
+  }
+  return multiplicacion;
 }
 
 
@@ -126,7 +128,8 @@ function cuentoElementos(arreglo){
   var total = 0
   for(var i = 0; i < arreglo.length; i++){
     if(arreglo[i] > 19) {total = total + 1}
-  } return total;
+  }
+  return total;
 
 }
 
@@ -158,7 +161,8 @@ function todosIguales(arreglo) {
   //Escribe tu código aquí  
   for(var i = 0; i < arreglo.length - 1; i++){
     if(arreglo[i] != arreglo[i+1]) {return false}
-  } return true
+  }
+  return true;
 } 
 
 
@@ -171,22 +175,27 @@ function mesesDelAño(array) {
   for(var i = 0; i < array.length; i++){
     if(array[i] === "Enero" || array[i] === "Marzo" || array[i] === "Noviembre") {
         arrayNuevo.push(array[i]);
-        } }
-      if(arrayNuevo.length < 3) {return 'No se encontraron los meses pedidos'}
-      else {return arrayNuevo};
+    }
   }
+  if(arrayNuevo.length < 3) {
+    return 'No se encontraron los meses pedidos'
+  } else {
+    return arrayNuevo
+  }
+}
 
 
 function mayorACien(array) {
   //La función recibe un array con enteros entre 0 y 200. Recorrer el array y guardar en un nuevo array sólo los
   //valores mayores a 100 (no incluye el 100). Finalmente devolver el nuevo array.
   // Tu código:
-  var nuevoArray = []
+  var nuevoArray = [];
   for(var i = 0; i < array.length; i++) {
     if(array[i] > 100) {
-      nuevoArray.push(array[i])
+      nuevoArray.push(array[i]);
     }
-      } return nuevoArray
+  }
+  return nuevoArray;
 }
 
 
@@ -203,12 +212,13 @@ function breakStatement(numero) {
     numero = numero +2
     if(numero === i) {break;}
     array.push(numero)
-      }
-      if(array.length<10) {return 'Se interrumpió la ejecución';
-    }
-      else {return array
-      }
-    }
+  }
+  if(array.length<10) {
+    return 'Se interrumpió la ejecución';
+  } else {
+    return array;
+  }
+}
 
 
 function continueStatement(numero) {
@@ -222,10 +232,11 @@ function continueStatement(numero) {
   for (var i = 0; i<10; i++) {
     if (i === 4) {continue;}
     else {
-    numero = numero + 2
-    array.push(numero) 
+      numero = numero + 2
+      array.push(numero) 
     }
-  } return array
+  }
+  return array
 }
 
 
